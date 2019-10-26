@@ -1,0 +1,7 @@
+Finished 10000 / 10000 iterations.
+Average number of characteristic operations for array size of 10000 over 10000 iterations:
+Merge Sort: 133,616
+Quick Sort: 90,905
+Insertion Sort: 24,998,650
+Bubble Sort: 49,995,000
+BST Sort: 154,378
