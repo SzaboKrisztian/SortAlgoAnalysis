@@ -3,6 +3,11 @@ package dk.kea.stud.chris;
 import java.util.List;
 
 public class InsertionSort extends SortingStrategy {
+
+  InsertionSort() {
+    super("Insertion Sort");
+  }
+
   @Override
   public long sort(List<Integer> data) {
     int n = data.size();

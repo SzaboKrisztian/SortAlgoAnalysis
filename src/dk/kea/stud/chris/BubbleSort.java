@@ -3,6 +3,11 @@ package dk.kea.stud.chris;
 import java.util.List;
 
 public class BubbleSort extends SortingStrategy {
+
+  BubbleSort() {
+    super("Bubble Sort");
+  }
+
   @Override
   public long sort(List<Integer> data) {
     int n = data.size();

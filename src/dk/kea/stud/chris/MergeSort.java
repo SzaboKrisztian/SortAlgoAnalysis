@@ -4,10 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MergeSort extends SortingStrategy {
-  static long noOps = 0;
+  static long noOps;
+
+  MergeSort() {
+    super("Merge Sort");
+  }
 
   @Override
   public long sort(List<Integer> data) {
+    noOps = 0;
     sort(data, 0, data.size() - 1);
     return noOps;
   }

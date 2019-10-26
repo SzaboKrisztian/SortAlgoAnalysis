@@ -5,6 +5,10 @@ import java.util.List;
 public class QuickSort extends SortingStrategy {
   private static long NoOps;
 
+  QuickSort() {
+    super("Quick Sort");
+  }
+
   @Override
   long sort(List<Integer> data) {
     NoOps = 0;
@@ -42,6 +46,7 @@ public class QuickSort extends SortingStrategy {
     Integer temp = arr.get(start);
     arr.set(start, pivot);
     arr.set(end, temp);
+    NoOps++;
 
     return start;
   }
