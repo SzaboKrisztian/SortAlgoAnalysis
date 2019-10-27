@@ -37,7 +37,7 @@ public class BST {
         if (key < root.key) {
             NoOps++;
             root.left = insertRec(root.left, key);
-        } else if (key > root.key) {
+        } else {
             NoOps++;
             root.right = insertRec(root.right, key);
         }

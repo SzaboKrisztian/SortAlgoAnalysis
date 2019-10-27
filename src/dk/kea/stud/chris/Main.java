@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Main {
-  private static final int ARRAY_SIZE = 10000;
-  private static final int NO_ITERATIONS = 10000;
+  private static final int ARRAY_SIZE = 20000;
+  private static final int NO_ITERATIONS = 20000;
 
   public static void main(String[] args) {
     Random random = new Random();

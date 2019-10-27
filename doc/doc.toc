@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Introduction}{2}% 
+\contentsline {section}{\numberline {2}Analysis}{3}% 
+\contentsline {subsection}{\numberline {2.1}Merge sort}{3}% 
+\contentsline {subsection}{\numberline {2.2}Quicksort}{4}% 
+\contentsline {subsection}{\numberline {2.3}Insertion sort}{5}% 
+\contentsline {subsection}{\numberline {2.4}Bubble sort}{6}% 
+\contentsline {subsection}{\numberline {2.5}Binary tree sort}{7}% 
+\contentsline {section}{\numberline {3}Experimental data}{8}% 
