@@ -150,7 +150,7 @@ Characteristics:
 
 \section{Experimental data}
 
-By taking a Monte Carlo approach I ran these five algorithms over large, randomized arrays of integers. The first run consisted of 10,000 iterations over arrays of 10,000 elements. The next run was of 20,000 iterations, and arrays of 20,000 elements. My hope was that these large values will pull the average number of operations towards what one would expect mathematically. The results are in the following tables:
+By taking a Monte Carlo approach I ran these five algorithms over large, randomized arrays of integers. The first run consisted of 10,000 iterations over arrays of 10,000 elements. The second was of 20,000 iterations, and arrays of 20,000 elements. My hope was that these large values will pull the average number of operations towards what one would expect mathematically. The results are shown in the following tables:
 
 \begin{table}[ht!]
 \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
@@ -177,15 +177,15 @@ Tree sort & $\mathcal{O}(n \log_2 n)$ & 132,877 & 154,378 \\
 \hline 
 Algorithm & Complexity & Expected & Actual \\ 
 \hline 
-Merge sort & $\mathcal{O}(n \log_2 n)$ & 285,754 & • \\ 
+Merge sort & $\mathcal{O}(n \log_2 n)$ & 285,754 & 287,232 \\ 
 \hline 
-Quicksort & $\mathcal{O}(n \log_2 n)$ & 285,754 & • \\ 
+Quicksort & $\mathcal{O}(n \log_2 n)$ & 285,754 & 195,831 \\ 
 \hline 
-Insertion sort & $\mathcal{O}(n^2)$ & 400,000,000 & • \\ 
+Insertion sort & $\mathcal{O}(n^2)$ & 400,000,000 & 99,994,499 \\ 
 \hline 
-Bubble sort & $\mathcal{O}(n^2)$ & 400,000,000 & • \\ 
+Bubble sort & $\mathcal{O}(n^2)$ & 400,000,000 & 199,990,000 \\ 
 \hline 
-Tree sort & $\mathcal{O}(n \log_2 n)$ & 285,754 & • \\ 
+Tree sort & $\mathcal{O}(n \log_2 n)$ & 285,754 & 339,232 \\ 
 \hline 
 \end{tabular} 
 \caption{The data from 20,000 iterations, over 20,000 elements}

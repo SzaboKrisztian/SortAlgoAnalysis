@@ -5,3 +5,11 @@ Quick Sort: 90,905
 Insertion Sort: 24,998,650
 Bubble Sort: 49,995,000
 BST Sort: 154,378
+
+Finished 20000 / 20000 iterations.
+Average number of characteristic operations for array size of 20000 over 20000 iterations:
+Merge Sort: 287,232
+Quick Sort: 195,831
+Insertion Sort: 99,994,499
+Bubble Sort: 199,990,000
+BST Sort: 339,232
